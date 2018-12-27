@@ -12,6 +12,6 @@ with picamera.PiCamera() as camera:
  time.sleep(2)
  #image name
  now = datetime.now().strftime("%Y/%m/%d %H:%M:%S")
- image_name = now+"jpg"
+ image_name = str(now)+"jpg"
 
  camera.capture(image_name)
