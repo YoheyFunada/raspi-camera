@@ -8,7 +8,7 @@ from datetime import datetime
 with picamera.PiCamera() as camera:
  camera.sharpness = 0
  camera.contrast = 0
- camera.brightness = 60
+ camera.brightness = 65
  camera.saturation = 0
  camera.ISO = 0
  camera.video_stabilization = False
